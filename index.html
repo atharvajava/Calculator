@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Orbitron'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class=container><br><br>
+  
+  <center>
+    <div class=colorbg>
+      <br><label>CASIO</label>
+    <center><div class="display"><br><input type = "text" id = "myText" readOnly/><br><br>
+      <tr>
+        <td><button  type="button" value=1 onClick="math('1')">1</button></td>&nbsp;
+      <td><button type="button" value=2 onClick="math('2')">2</button></td>&nbsp;
+      <td><button type="button" value=3 onClick="math('3')">3</button></td>&nbsp;
+      <td><button type="button" value='C' onClick="c('')" >C</button></td>&nbsp;
+      <td><button type="button" value='*' onClick="math('*')">*</button></td>
+      </tr><br><br>
+      <tr><td><button type="button" value=4 onClick="math('4')">4</button></td>&nbsp;
+      <td><button type="button" value=5 onClick="math('5')">5</button></td>&nbsp;
+      <td><button type="button" value=6 onClick="math('6')">6</button></td>&nbsp;
+      <td><button type="button" value='=' onClick='e()'>=</button></td>&nbsp;
+      <td><button type="button" value='/' onClick='math("/")'>/</button></td>
+      </tr>
+      <br><br>
+      <tr><td><button type="button" value=7 onClick="math('7')">7</button></td>&nbsp;
+      <td><button type="button" value=8 onClick="math('8')">8</button></td>&nbsp;
+      <td><button type="button" value=9 onClick="math('9')">9</button></td>&nbsp;
+      <td><button type="button" value=. onClick="math('.')">.</button></td>&nbsp;
+      <td><button type="button" value='+' onClick="math('+')">+</button></td>
+      </tr>
+       </tr>
+      <br><br>
+      <tr><td><button type="button" onClick="back()"><-</button></td>&nbsp;
+      <td><button type="button" value=0 onClick="math('0')">0</button></td>&nbsp;
+      <td><button type="button" value='π' onClick="math('3.14')">π</button></td>&nbsp;
+      <td><button type="button" value='%' onClick="math('%')">%</button></td>&nbsp;
+      <td><button type="button" value='-' onClick="math('-')">-</button></td>
+      </tr>
+      </div></center>
+    
+</div></center>
+<br><br><center><footer>Made by @Atharva</footer></center>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
